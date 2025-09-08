@@ -48,13 +48,13 @@
 
 **Visualizations**
 - **Top 10 Countries by Revenue**  
-  ![Top 10 Countries](plots/Top 10 Countries by Revenue.png)
+  ![Top 10 Countries](Plots/Top 10 Countries by Revenue.png)
 
 - **Monthly Revenue Trend**  
-  ![Revenue Trend](plots/Monthly Revenue Trend.png)  
+  ![Revenue Trend](Plots/Monthly Revenue Trend.png)  
 
 - **Top 10 Products by Quantity and Revenue**
-  ![Top 10 Products by Quantity and Revenue](plots/Top 10 Products by Quantity and Revenue.jpg)
+  ![Top 10 Products by Quantity and Revenue](Plots/Top 10 Products by Quantity and Revenue.jpg)
 
 **🤖 Customer Segmentation (K-Means)**<br>
 - *Used Elbow Method → optimal k=4.*
@@ -69,7 +69,7 @@ Segmented customers into 4 groups:<br>
 | 3       | Dormant Customers    | Long inactive, low spend        | Re-engagement campaigns  |
 
  **PCA Visualization of Clusters**  
-  ![PCA Plot](plots/Customer Segments (PCA Visualization).png) 
+  ![PCA Plot](Plots/Customer Segments (PCA Visualization).png) 
 
 
 **📈 Key Findings**<br>
