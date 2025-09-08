@@ -4,7 +4,7 @@
 
 **Basic Overview**<br>
 
-*This project aims to analyze customer purchasing behavior for an online retail store using transaction data. Using **RFM (Recency, Frequency, Monetary)** analysis and **K-Means clustering**, customers are segmented into distinct groups to support **personalized marketing, customer retention, and business growth.*** <br>
+*This project aims to analyze customer purchasing behavior for an UK based online retail store using transaction data. Using **RFM (Recency, Frequency, Monetary)** analysis and **K-Means clustering**, customers are segmented into distinct groups to support **personalized marketing, customer retention, and business growth.*** <br>
 ***Techniques used***: *Data cleaning, exploratory data analysis (EDA), feature engineering, clustering, and visualization.*
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nehagnaidu/e-commerce-customer-segmentation/blob/main/e_commerceCustomerBehaviourAnalysisUsingML.ipynb)
