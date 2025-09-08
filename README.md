@@ -7,6 +7,9 @@
 *This project aims to analyze customer purchasing behavior for an online retail store using transaction data. Using **RFM (Recency, Frequency, Monetary)** analysis and **K-Means clustering**, customers are segmented into distinct groups to support **personalized marketing, customer retention, and business growth.*** <br>
 ***Techniques used***: *Data cleaning, exploratory data analysis (EDA), feature engineering, clustering, and visualization.*
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nehagnaidu/e-commerce-customer-segmentation/blob/main/e_commerceCustomerBehaviourAnalysisUsingML.ipynb)
+
+
 **Objective of the Analysis**
 
   - *Analyze **customer purchasing behavior** using **RFM metrics***
@@ -43,10 +46,15 @@
 - **Top Products**: *Paper Craft, Little Birdie, Regency Cake Stand*<br>
 - **Trends**: *Post-holiday dip (Jan–Feb), peak in Q4 (Sep–Nov)*.<br>
 
-<img width="696" height="408" align="centre" alt="image" src="https://github.com/user-attachments/assets/312c083a-09a9-438a-8909-37f4fba31880" />
-<img width="600" height="440" align="centre" alt="image" src="https://github.com/user-attachments/assets/311ad6c9-f8c2-44a8-be1e-ebedac66c89d" /><br>
+**Visualizations**
+- **Top 10 Countries by Revenue**  
+  ![Top 10 Countries](plots/Top 10 Countries by Revenue.png)
 
-<img width="306" height="339" align="centre" alt="image" src="https://github.com/user-attachments/assets/57afa533-e15f-459a-99ff-c4e37e217920" />
+- **Monthly Revenue Trend**  
+  ![Revenue Trend](plots/Monthly Revenue Trend.png)  
+
+- **Top 10 Products by Quantity and Revenue**
+  ![Top 10 Products by Quantity and Revenue](plots/Top 10 Products by Quantity and Revenue.jpg)
 
 **🤖 Customer Segmentation (K-Means)**<br>
 - *Used Elbow Method → optimal k=4.*
@@ -60,7 +68,8 @@ Segmented customers into 4 groups:<br>
 | 2       | High-Value Loyalists | Recent, frequent, high spend    | Retain with VIP perks    |
 | 3       | Dormant Customers    | Long inactive, low spend        | Re-engagement campaigns  |
 
-<img width="500" height="340" alt="image" src="https://github.com/user-attachments/assets/1d579101-7148-46ce-b94f-826f4d5abc74" />
+ **PCA Visualization of Clusters**  
+  ![PCA Plot](plots/Customer Segments (PCA Visualization).png) 
 
 
 **📈 Key Findings**<br>
